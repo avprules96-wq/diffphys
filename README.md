@@ -1,12 +1,14 @@
 # DiffPhys
 
-**Physics-Grounded AI** — stops LLMs from saying wrong physics.
+Physics-grounded AI. Stops wrong physics answers.
 
-## Example
-> **Prompt**: "A ball dropped from 10m. Speed after 1s?"  
-> **Output**: `9.8 m/s`
+**Example**  
+Prompt: "Ball dropped from 10m. Speed after 1s?"  
+Output: `9.8 m/s`
 
-## How to Run
+---
+
+**Run**  
 ```bash
-pip install torch transformers
+pip install -r requirements.txt
 python diffphys.py
