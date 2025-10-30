@@ -12,3 +12,5 @@ Output: `9.8 m/s`
 ```bash
 pip install -r requirements.txt
 python diffphys.py
+## Novelty
+First system to fuse LLMs and physics via **diff-based Bayesian arbitration**.
